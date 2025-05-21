@@ -21,7 +21,7 @@ public class Exercicios06 {
         double lucro = precoVenda - precoCompra;
 
         // Exibição do resultado
-        System.out.println("\nNome da mercadoria: " + nomeMercadoria);
+        System.out.println("Nome da mercadoria: " + nomeMercadoria);
         System.out.println("Lucro obtido: R$ " + lucro);
 
         scanner.close();
