@@ -1,4 +1,3 @@
-package main.java;
 //Elabore um algoritmo para solicitar a entrada da base e da altura de um triângulo.
 // Em seguida, calcule e exiba a área do triângulo conforme a fórmula: Área = (Base * Altura) / 2.
 
