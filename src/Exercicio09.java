@@ -1,3 +1,5 @@
+//Solicite os valores necessários e calcule a formula (b² - 4ac)) / (2a).
+
 import java.util.Scanner;
 
 public class Exercicio09 {

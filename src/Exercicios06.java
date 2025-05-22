@@ -7,23 +7,17 @@ public class Exercicios06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Entrada de dados
-        System.out.print("Digite o nome da mercadoria: ");
-        String nomeMercadoria = scanner.nextLine();
+        System.out.println("Digite o nome da compra :");
+        String nomeCompra = scanner.nextLine();
 
-        System.out.print("Digite o preço de compra: ");
+        System.out.println("Digite o preço da compra :");
         double precoCompra = scanner.nextDouble();
 
-        System.out.print("Digite o preço de venda: ");
+        System.out.println("Digite o preço de venda :");
         double precoVenda = scanner.nextDouble();
 
-        // Cálculo do lucro
-        double lucro = precoVenda - precoCompra;
+        double lucroObtido = (precoCompra + precoVenda) / precoCompra * 100;
 
-        // Exibição do resultado
-        System.out.println("Nome da mercadoria: " + nomeMercadoria);
-        System.out.println("Lucro obtido: R$ " + lucro);
-
-        scanner.close();
+        System.out.println("O lucro obitido é de :" + lucroObtido);
     }
 }

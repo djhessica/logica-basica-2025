@@ -1,6 +1,8 @@
+// Crie um algoritmo que receba dois números inteiros e exiba a soma, a subtração, a multiplicação e a divisão desses números. Exiba os valores na mesma linha
+
 import java.util.Scanner;
 
-public class Exercicio5 {
+public class Exercicio07 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -11,13 +13,13 @@ public class Exercicio5 {
         System.out.print("Digite o segundo número inteiro: ");
         int numero2 = scanner.nextInt();
 
-        // Cálculo das operações
         int soma = numero1 + numero2;
         int subtracao = numero1 - numero2;
         int multiplicacao = numero1 * numero2;
-        double divisao = (numero2 != 0) ? (double) numero1 / numero2 : Double.POSITIVE_INFINITY;
+        double divisao = numero1 / numero2;
 
-        System.out.println("Soma: " + soma + " | Subtração: " + subtracao + " | Multiplicação: "  + multiplicacao + " | Divisão: " + divisao);
+        System.out.println("Soma: " + soma + " | Subtração: " + subtracao + " | Multiplicação: "
+                + multiplicacao + " | Divisão: " + divisao);
 
         scanner.close();
     }

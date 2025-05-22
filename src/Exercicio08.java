@@ -1,6 +1,4 @@
-//Desenvolvaum algoritmo que solicite ao usuário a entrada de três números inteiros e
-// calcule a média aritmética entre eles.
-
+//Desenvolva um algoritmo que solicite ao usuário a entrada de três números inteiros e calcule a média aritmética entre eles.
 
 import java.util.Scanner;
 
@@ -8,19 +6,19 @@ public class Exercicio08 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite á primeira nota:");
-        double primeiraNota = scanner.nextDouble();
+        System.out.println("Digite o primeiro numero :");
+        double numero1 = scanner.nextDouble();
 
-        System.out.println("Digite á segunda nota:");
-        double segundaNota = scanner.nextDouble();
+        System.out.println("Digite o segundo numero :");
+        double numero2 = scanner.nextDouble();
 
-        System.out.println("Digite á segunda nota:");
-        double terceriraNota = scanner.nextDouble();
+        System.out.println("Digite o terçeiro numero :");
+        double numero3 = scanner.nextDouble();
 
-        double soma = primeiraNota + segundaNota + terceriraNota;
-        double media = soma / 3;
+        double media = (numero1 + numero2 + numero3) / 3 ;
 
-        System.out.println("À media é: ");
-        System.out.println(media);
+        System.out.println("Á medoa aritimetrica é :" + media);
+
+
     }
 }
