@@ -8,19 +8,23 @@ public class Exercicio10 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("|Digite as horas :");
-        double horas = scanner.nextDouble();
+        int horas = scanner.nextInt();
 
         System.out.println("Digite os dias :");
-        double dias = scanner.nextDouble();
+        int dias = scanner.nextInt();
 
         System.out.println("Digite os minutos :");
-        double minutos = scanner.nextDouble();
+        int minutos = scanner.nextInt();
 
         System.out.println("Digite os segundos :");
-        double segundos = scanner.nextDouble();
+        int segundos = scanner.nextInt();
 
-        double cauculosSegundos = horas * 60 * dias * 60 * minutos * 60 * segundos;
+        int diasSegundos = dias * 24 * 60 * 60;
+        int horasSegundos = horas * 60 * 60;
+        int minutosSegundos = minutos * 60;
 
-        System.out.println("Os segundos são : " + cauculosSegundos);
+        int totalDeSegundos = diasSegundos + horasSegundos + minutosSegundos +segundos;
+
+        System.out.println("Os segundos são : " + totalDeSegundos);
     }
 }

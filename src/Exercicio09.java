@@ -16,5 +16,6 @@ public class Exercicio09 {
         double c = scanner.nextDouble();
 
         double resultado = ((b * b) - 4 * a * c) / (2 * a);
+        System.out.println("O resultado é :" + resultado);
     }
 }

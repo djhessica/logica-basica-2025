@@ -7,17 +7,18 @@ public class Exercicio08 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite o primeiro numero :");
-        double numero1 = scanner.nextDouble();
+        int numero1 = scanner.nextInt();
 
         System.out.println("Digite o segundo numero :");
-        double numero2 = scanner.nextDouble();
+        int numero2 = scanner.nextInt();
 
-        System.out.println("Digite o terçeiro numero :");
-        double numero3 = scanner.nextDouble();
+        System.out.println("Digite o terceiro numero :");
+        int numero3 = scanner.nextInt();
 
-        double media = (numero1 + numero2 + numero3) / 3 ;
+        int soma = numero1 + numero2 + numero3;
+        double media = soma / 3;
 
-        System.out.println("Á medoa aritimetrica é :" + media);
+        System.out.println("Á media aritimetrica é :" + media);
 
 
     }
