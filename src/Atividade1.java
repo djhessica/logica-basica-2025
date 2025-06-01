@@ -19,7 +19,7 @@ public class Atividade1 {
 
 
         double velocidadeMdia = (distancia / tempo);
-        System.out.println("Á velocidade media é :");
+        System.out.println("Á velocidade media é :" + velocidadeMdia);
 
     }
 

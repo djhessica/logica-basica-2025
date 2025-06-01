@@ -1,5 +1,5 @@
 //Implemente um algoritmo que calcule dois números inteiros e efetue
-// a divisão entre eles, exibindo o quociente e o resto da divisão como resultado.
+// a divisão entre eles, exibindo o quociente e o resto da ivisão como resultado.
 
 
 import java.util.Scanner;
