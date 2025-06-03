@@ -9,14 +9,14 @@ public class Teste10 {
         System.out.println("Digite sua idade :");
         int idade = scanner.nextInt();
 
-        if (idade<=16){
+        if (idade < 16){
             System.out.println("não poderá votar :");
 
-        } else if (idade>=18) {
-            System.out.println("voto obrigatorio :");
+        } else if (idade <= 17) {
+            System.out.println("voto opcional :");
 
-        } else if (idade>60) {
-            System.out.println("opicional :");
+        } else if (idade <= 60 ) {
+            System.out.println("obrigatorio :");
 
         } else{
             System.out.println("voto opcional :");
