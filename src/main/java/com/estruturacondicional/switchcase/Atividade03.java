@@ -20,28 +20,28 @@ public class Atividade03{
             System.out.print("Digite um valor real distinto (B): ");
             double B = scanner.nextDouble();
 
-            System.out.println("Valores lidos: X = " + X + ", A = " + A + ", B = " + B);
+
 
             switch (X) {
                 case 1:
                     System.out.println("Soma de A e B: " + (A + B));
                     break;
                 case 2:
-                    if (B != 0) {
                         System.out.println("Divisão de A por B: " + (A / B));
-                    } else {
-                        System.out.println("Erro: divisão por zero não permitida.");
-                    }
                     break;
                 case 3:
-                    if (A < B) {
-                        System.out.println("Valores em ordem crescente: " + A + ", " + B);
-                    } else {
+                    if (A > B) {
                         System.out.println("Valores em ordem crescente: " + B + ", " + A);
+                    } else {
+                        System.out.println("Valores em ordem crescente: " + A + ", " + B);
                     }
                     break;
                 case 4:
-                    System.out.println("Diferença entre o maior e o menor valor: " + Math.abs(A - B));
+                    if (A > B) {
+                        System.out.println("Á diferença: "+ (A - B));
+                    } else {
+                        System.out.println("Á diferença:" + (B -A));
+                    }
                     break;
                 case 5:
                     System.out.println("Média aritmética de A e B: " + ((A + B) / 2));
