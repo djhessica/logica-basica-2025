@@ -2,7 +2,6 @@ package main.java.com.estruturacondicional;//elabore um algoritimo que receba um
 // e descubra se este numero é par ou impar.
 
 
-import javax.xml.crypto.dsig.spec.DigestMethodParameterSpec;
 import java.util.Scanner;
 
 public class Teste02 {
