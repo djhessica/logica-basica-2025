@@ -4,7 +4,7 @@
 //...
 //• 7: Sábado
 //Use switch para retornar o nome do dia.
-package main.java.com.estruturacondicional.switchcase;
+package main.java.com.switchcase;
 
 import java.util.Scanner;
 

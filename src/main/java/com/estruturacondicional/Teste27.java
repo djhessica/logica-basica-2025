@@ -20,7 +20,7 @@ public class Teste27 {
         System.out.println("Digite uma nota de (0 á 100)");
         int nota = scanner.nextInt();
 
-        if (nota >= 100){
+        if (nota <= 100){
             System.out.println("a");
         } else if (nota >= 80 ){
             System.out.println("b");

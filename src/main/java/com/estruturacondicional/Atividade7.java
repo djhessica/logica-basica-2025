@@ -1,4 +1,4 @@
-//Peça ao usuário três notas e seus respectivos pesos. Calcule a média ponderada.
+package main.java.com.estruturacondicional;//Peça ao usuário três notas e seus respectivos pesos. Calcule a média ponderada.
 //Fórmula:
 //media = (n1*p1 + n2*p2 + n3*p3) / (p1 + p2 + p3)
 

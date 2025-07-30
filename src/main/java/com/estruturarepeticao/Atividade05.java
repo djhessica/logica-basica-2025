@@ -28,3 +28,14 @@ public class Atividade05 {
         }
     }
 }
+// while (true){
+ //  system.out.println("digite um numero");
+  //  int numero = scanner.nextint;
+  //  if(numero < 0){
+//  break;
+  //      }
+  //  contador++;
+  //  soma = soma + numero;
+ //   }
+ //   doublemedia = soma / xontador;
+  //   system.out.println(" a media é:" + media);
