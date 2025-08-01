@@ -8,16 +8,16 @@ public class Atividade08 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite o primeiro numero ");
+        System.out.print("Digite o primeiro numero: ");
         int numero1 = scanner.nextInt();
-        System.out.print("Digite o segundo numero ");
+        System.out.print("Digite o segundo numero: ");
         int numero2 = scanner.nextInt();
         int soma =0;
 
-        for (int i = 1; i <= numero2; i++) {
+        for (int i = 0; i < numero2; i++) {
             soma = soma + numero1;
 
         }
-        System.out.println(soma);
+        System.out.println("Resultado da operação: " +soma);
     }
 }

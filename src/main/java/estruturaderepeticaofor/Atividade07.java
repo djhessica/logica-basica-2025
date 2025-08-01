@@ -7,15 +7,15 @@ public class Atividade07 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite um niumero inteiro:");
+        System.out.println("Digite um niumero :");
         int numero = scanner.nextInt();
         int soma = 1;
 
-        for (int i =numero ; i >= 1; i--) {
+        for (int i = 1 ; i <= numero; i++) {
             soma = soma * i;
 
 
         }
-        System.out.println(soma);
+        System.out.println("Fatorial: " + soma);
     }
 }
