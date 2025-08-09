@@ -13,7 +13,7 @@ public class Atividade02 {
         int contador = 0;
 
         while (sair != 1){
-            System.out.println("Digite uma numero:");
+            System.out.println("Digite um numero:");
             numero = scanner.nextInt();
             totalNumero = totalNumero + numero;
             contador++;

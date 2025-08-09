@@ -12,7 +12,7 @@ public class Atividade15 {
         int contador = 0;
 
         while (contador < 4) {
-            System.out.println("Digite uma numero:");
+            System.out.println("Digite um numero:");
             int numero = scanner.nextInt();
             if (contador == 0) {
                 menor = numero;
